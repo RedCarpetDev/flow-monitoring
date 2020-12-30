@@ -111,7 +111,7 @@ export default class Login extends Component {
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
                 </p>
-
+                {JSON.stringify(this.state)}
             </form>
         );
     }
